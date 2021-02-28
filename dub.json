@@ -1,0 +1,13 @@
+{
+	"name": "libavif-d",
+	"description": "Deimos bindings for AV1 Image File Format library",
+	"homepage": "https://aomediacodec.github.io/av1-avif/",
+	"authors": [
+		"devmynote"
+	],
+	"license": "BSD 2-clause",
+	"targetType": "sourceLibrary",
+	"dependencies": {
+	},
+	"libs": ["avif"]
+}
