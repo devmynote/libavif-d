@@ -7,7 +7,10 @@
 	],
 	"license": "BSD 2-clause",
 	"targetType": "sourceLibrary",
-	"dependencies": {
-	},
-	"libs": ["avif"]
+	"sourcePaths" : [
+		"deimos"
+	],
+	"importPaths" : [
+		"deimos"
+	],
 }
