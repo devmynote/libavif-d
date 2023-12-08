@@ -31,8 +31,8 @@ extern (C):
 // to leverage in-development code without breaking their stable builds.
 enum AVIF_VERSION_MAJOR = 1;
 enum AVIF_VERSION_MINOR = 0;
-enum AVIF_VERSION_PATCH = 2;
-enum AVIF_VERSION_DEVEL = 1;
+enum AVIF_VERSION_PATCH = 3;
+enum AVIF_VERSION_DEVEL = 0;
 enum AVIF_VERSION = 
     ((AVIF_VERSION_MAJOR * 1000000) + (AVIF_VERSION_MINOR * 10000) + (AVIF_VERSION_PATCH * 100) + AVIF_VERSION_DEVEL);
 
