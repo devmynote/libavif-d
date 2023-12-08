@@ -1,7 +1,7 @@
 # libavif-d
 D bindings for libavif.
 
-Version 0.9.0 (2021-02-22). C headers available in the c/ directory.
+Version 1.0.3. C headers available in the c/ directory.
 
 =======
 
