@@ -1,10 +1,10 @@
 # libavif-d
-D bindings for libavif.
+D bindings for libavif. (Version 1.0.3)
+You can handle avif files in D language. 
 
-Version 1.0.3. C headers available in the c/ directory.
+The original C header is in C/avif/ directory
 
 =======
-
 
 # libavif [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/louquillio/libavif?branch=master&svg=true)](https://ci.appveyor.com/project/louquillio/libavif) [![Travis Build Status](https://travis-ci.com/AOMediaCodec/libavif.svg?branch=master)](https://travis-ci.com/AOMediaCodec/libavif)
 
