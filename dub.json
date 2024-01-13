@@ -1,16 +1,20 @@
 {
 	"name": "libavif-d",
-	"description": "Deimos bindings for AVIF(AV1 Image File Format) library",
-	"homepage": "https://aomediacodec.github.io/av1-avif/",
-	"authors": [
-		"devmynote"
-	],
+	"description": "D bindings for AVIF(AV1 Image File Format) library",
 	"license": "BSL-1.0",
+	"homepage": "https://aomediacodec.github.io/av1-avif/",
+	"authors": ["devmynote"],
 	"targetType": "sourceLibrary",
 	"sourcePaths" : [
 		"deimos"
 	],
 	"importPaths" : [
 		"deimos"
+	],
+	"libs-windows": [
+		"avif"
+	],
+	"lflags-windows-x86_64": [
+		"/LIBPATH:$PACKAGE_DIR\\lib\\win"
 	]
 }
